@@ -1,0 +1,15 @@
+extends partial/default.jade
+block content
+  section.HeroHome
+    .absolute-centerBottom.u-marBot
+      .Card.Container.u-padTall--2 
+        //- .Logo--medium.u-marBot
+        //-   img(src="asset/img/logo-s.svg", alt="")
+        .u-textCenter
+          p.u-marBot Pilih Premi Asuransi Anda
+        form(action="")
+          input(class="Input" type="number" placeholder="Harga Mobil")
+          input(class="Input" type="number" placeholder="Tahun Produksi")
+          input(class="Input u-marBot" type="text" placeholder="Nomor Polisi")
+          //button(class="Button Button--primary Button--block u-sizeFull" type="button") Pilih Premi
+          a(class="Button Button--primary Button--block u-sizeFull" href="premi.html") Pilih Premi

@@ -1,0 +1,43 @@
+/*Montserrat-Black.otf
+Montserrat-Bold.otf
+Montserrat-ExtraBold.otf
+Montserrat-Hairline.otf
+Montserrat-Light.otf
+Montserrat-Regular.otf
+Montserrat-SemiBold.otf
+Montserrat-UltraLight.otf*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../asset/fonts/Montserrat-Hairline.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../asset/fonts/Montserrat-Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../asset/fonts/Montserrat-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../asset/fonts/Montserrat-Bold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../asset/fonts/Montserrat-Medium.otf');
+  font-weight: 600;
+  font-style: normal;
+}

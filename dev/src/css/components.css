@@ -1,0 +1,154 @@
+/* ===============================
+   Media Object
+   =============================== */
+
+.Media {
+  display: table;
+  width: 100%;
+}
+
+.Media-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Media-item--left {
+  display: table-cell;
+  text-align: left;
+}
+
+.Media-item--center {
+  display: table-cell;
+  text-align: left;
+}
+
+.Media-item--right {
+  display: table-cell;
+  text-align: right;;
+}
+
+
+/* ===============================
+   Pureccs Grids Modifed
+   =============================== */
+
+.pure-g {
+    letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
+    *letter-spacing: normal; /* reset IE < 8 */
+    *word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    -ms-align-content: flex-start;
+	  -webkit-align-content: flex-start;
+	  align-content: flex-start;
+}
+.opera-only :-o-prefocus,
+
+.pure-g {
+    word-spacing: -0.43em;
+}
+
+.pure-u {
+    display: inline-block;
+    *display: inline; /* IE < 8: fake inline-block */
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+.pure-g [class *= "pure-u"] {
+    font-family: var(--base-font);
+}
+
+/* ===============================
+   Logo size
+   =============================== */
+
+.Logo--xsmall {
+  width: 100%;
+  max-width: 48px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Logo--small {
+  width: 100%;
+  max-width: 48px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Logo--medium {
+  width: 100%;
+  max-width: 96px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo--large {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ===============================
+   Premi Card
+   =============================== */
+
+.PremiCard {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(#000, 0.25);
+}
+
+.PremiCard-price > * {
+  font-weight: 300;
+}
+
+
+/* ===============================
+   SmallScreen Nav Bar
+   =============================== */
+
+.SmallTopBar {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 5px rgba(#000,0.2);
+  display: table;
+  height: 48px;
+  justify-content: space-between;
+  left: 0;
+  padding-left: 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.SmallTopBar--left,
+.SmallTopBar--right {
+  display: table-cell;
+  vertical-align: middle;;
+}
+
+.SmallTopBar--right {
+  text-align: right;
+}
